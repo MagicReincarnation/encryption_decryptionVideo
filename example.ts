@@ -1,5 +1,6 @@
-import * as CryptoJS from "crypto-js";
+// sir's example for video encoding
 
+import * as CryptoJS from "crypto-js";
 
 function fetchEncryptedImageData(imageId, imageUrl) {
     return this.http.get(imageUrl, { observe: 'response', responseType: 'blob' })
